@@ -1,0 +1,15 @@
+{
+	"name": "srimanadfazureproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0e536919-9a4a-43b0-8f8c-ce39611813f7",
+		"tenantId": "6eb45316-1d47-4c9d-9e08-01c2c328ce79"
+	}
+}
